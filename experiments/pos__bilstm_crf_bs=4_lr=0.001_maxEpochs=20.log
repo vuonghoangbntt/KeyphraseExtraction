@@ -1,0 +1,374 @@
+2022-01-13 10:37:23,786 [MainThread  ] [INFO ]  --------------------------EPOCH 0--------------------------
+2022-01-13 10:39:53,082 [MainThread  ] [INFO ]  --------------------------EPOCH 0--------------------------
+2022-01-13 10:44:14,423 [MainThread  ] [INFO ]  --------------------------EPOCH 0--------------------------
+2022-01-13 10:48:08,088 [MainThread  ] [INFO ]  --------------------------EPOCH 0--------------------------
+2022-01-13 10:48:44,291 [MainThread  ] [INFO ]  Train loss: 155.56471533062813
+2022-01-13 10:48:45,719 [MainThread  ] [INFO ]  B 	 {'precision': 0.15384615384615385, 'recall': 0.001851851851851852, 'f1-score': 0.0036596523330283625, 'support': 1080}
+2022-01-13 10:48:45,720 [MainThread  ] [INFO ]  I 	 {'precision': 0.6589147286821705, 'recall': 0.04927536231884058, 'f1-score': 0.09169363538295577, 'support': 1725}
+2022-01-13 10:48:45,720 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.6126760563380281, 'recall': 0.031016042780748664, 'f1-score': 0.05904309467254836, 'support': 2805}
+2022-01-13 10:48:45,720 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.4063804412641622, 'recall': 0.02556360708534622, 'f1-score': 0.04767664385799207, 'support': 2805}
+2022-01-13 10:48:45,721 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.4644498228629555, 'recall': 0.031016042780748664, 'f1-score': 0.05779819805891956, 'support': 2805}
+2022-01-13 10:48:45,724 [MainThread  ] [INFO ]  New best model in epoch 0: 	 Macro f1 score: 0.04767664385799207
+2022-01-13 10:48:45,862 [MainThread  ] [INFO ]  --------------------------EPOCH 1--------------------------
+2022-01-13 10:49:22,261 [MainThread  ] [INFO ]  Train loss: 108.41100591900705
+2022-01-13 10:49:23,686 [MainThread  ] [INFO ]  B 	 {'precision': 0.5138248847926268, 'recall': 0.2064814814814815, 'f1-score': 0.29458388375165123, 'support': 1080}
+2022-01-13 10:49:23,686 [MainThread  ] [INFO ]  I 	 {'precision': 0.6005385996409336, 'recall': 0.38782608695652177, 'f1-score': 0.4712927087002466, 'support': 1725}
+2022-01-13 10:49:23,687 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5762273901808785, 'recall': 0.3180035650623886, 'f1-score': 0.40983229956351935, 'support': 2805}
+2022-01-13 10:49:23,687 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5571817422167802, 'recall': 0.2971537842190016, 'f1-score': 0.3829382962259489, 'support': 2805}
+2022-01-13 10:49:23,687 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5671515008758101, 'recall': 0.3180035650623886, 'f1-score': 0.4032550862601457, 'support': 2805}
+2022-01-13 10:49:23,691 [MainThread  ] [INFO ]  New best model in epoch 1: 	 Macro f1 score: 0.3829382962259489
+2022-01-13 10:49:23,732 [MainThread  ] [INFO ]  --------------------------EPOCH 2--------------------------
+2022-01-13 10:49:59,433 [MainThread  ] [INFO ]  Train loss: 93.0584787829169
+2022-01-13 10:50:00,941 [MainThread  ] [INFO ]  B 	 {'precision': 0.49564134495641343, 'recall': 0.3685185185185185, 'f1-score': 0.4227296866702071, 'support': 1080}
+2022-01-13 10:50:00,942 [MainThread  ] [INFO ]  I 	 {'precision': 0.6061515378844711, 'recall': 0.46840579710144925, 'f1-score': 0.5284499672988882, 'support': 1725}
+2022-01-13 10:50:00,942 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5646067415730337, 'recall': 0.4299465240641711, 'f1-score': 0.48816029143897993, 'support': 2805}
+2022-01-13 10:50:00,942 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5508964414204423, 'recall': 0.41846215780998386, 'f1-score': 0.47558982698454766, 'support': 2805}
+2022-01-13 10:50:00,942 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5636021587891762, 'recall': 0.4299465240641711, 'f1-score': 0.4877448325113746, 'support': 2805}
+2022-01-13 10:50:00,945 [MainThread  ] [INFO ]  New best model in epoch 2: 	 Macro f1 score: 0.47558982698454766
+2022-01-13 10:50:00,984 [MainThread  ] [INFO ]  --------------------------EPOCH 3--------------------------
+2022-01-13 10:50:37,443 [MainThread  ] [INFO ]  Train loss: 83.68097178141277
+2022-01-13 10:50:38,921 [MainThread  ] [INFO ]  B 	 {'precision': 0.5256637168141592, 'recall': 0.275, 'f1-score': 0.36109422492401216, 'support': 1080}
+2022-01-13 10:50:38,922 [MainThread  ] [INFO ]  I 	 {'precision': 0.6289855072463768, 'recall': 0.3773913043478261, 'f1-score': 0.4717391304347826, 'support': 1725}
+2022-01-13 10:50:38,922 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5925, 'recall': 0.33796791443850266, 'f1-score': 0.4304199772985244, 'support': 2805}
+2022-01-13 10:50:38,922 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.577324612030268, 'recall': 0.32619565217391305, 'f1-score': 0.4164166776793974, 'support': 2805}
+2022-01-13 10:50:38,923 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5892038553152557, 'recall': 0.33796791443850266, 'f1-score': 0.4291378833932025, 'support': 2805}
+2022-01-13 10:50:38,937 [MainThread  ] [INFO ]  --------------------------EPOCH 4--------------------------
+2022-01-13 10:51:15,446 [MainThread  ] [INFO ]  Train loss: 76.80748928552386
+2022-01-13 10:51:16,958 [MainThread  ] [INFO ]  B 	 {'precision': 0.5350194552529183, 'recall': 0.25462962962962965, 'f1-score': 0.3450439146800502, 'support': 1080}
+2022-01-13 10:51:16,959 [MainThread  ] [INFO ]  I 	 {'precision': 0.6374859708193041, 'recall': 0.3292753623188406, 'f1-score': 0.43425076452599387, 'support': 1725}
+2022-01-13 10:51:16,959 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.6, 'recall': 0.30053475935828877, 'f1-score': 0.40047505938242284, 'support': 2805}
+2022-01-13 10:51:16,959 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5862527130361113, 'recall': 0.2919524959742351, 'f1-score': 0.389647339603022, 'support': 2805}
+2022-01-13 10:51:16,960 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.59803362257984, 'recall': 0.30053475935828877, 'f1-score': 0.39990374212541663, 'support': 2805}
+2022-01-13 10:51:16,985 [MainThread  ] [INFO ]  --------------------------EPOCH 5--------------------------
+2022-01-13 10:51:53,620 [MainThread  ] [INFO ]  Train loss: 71.66144956391433
+2022-01-13 10:51:55,152 [MainThread  ] [INFO ]  B 	 {'precision': 0.5334190231362468, 'recall': 0.38425925925925924, 'f1-score': 0.44671689989235736, 'support': 1080}
+2022-01-13 10:51:55,153 [MainThread  ] [INFO ]  I 	 {'precision': 0.6170388751033913, 'recall': 0.432463768115942, 'f1-score': 0.5085207907293797, 'support': 1725}
+2022-01-13 10:51:55,153 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5842979365878208, 'recall': 0.413903743315508, 'f1-score': 0.48455759599332215, 'support': 2805}
+2022-01-13 10:51:55,153 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.575228949119819, 'recall': 0.40836151368760065, 'f1-score': 0.4776188453108685, 'support': 2805}
+2022-01-13 10:51:55,154 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5848429962711218, 'recall': 0.413903743315508, 'f1-score': 0.48472464024667594, 'support': 2805}
+2022-01-13 10:51:55,158 [MainThread  ] [INFO ]  New best model in epoch 5: 	 Macro f1 score: 0.4776188453108685
+2022-01-13 10:51:55,201 [MainThread  ] [INFO ]  --------------------------EPOCH 6--------------------------
+2022-01-13 10:52:32,226 [MainThread  ] [INFO ]  Train loss: 68.39303439787065
+2022-01-13 10:52:33,764 [MainThread  ] [INFO ]  B 	 {'precision': 0.5489690721649485, 'recall': 0.39444444444444443, 'f1-score': 0.45905172413793105, 'support': 1080}
+2022-01-13 10:52:33,765 [MainThread  ] [INFO ]  I 	 {'precision': 0.6085626911314985, 'recall': 0.46144927536231883, 'f1-score': 0.5248928453676227, 'support': 1725}
+2022-01-13 10:52:33,765 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5863723608445297, 'recall': 0.435650623885918, 'f1-score': 0.4998977295970547, 'support': 2805}
+2022-01-13 10:52:33,765 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5787658816482235, 'recall': 0.42794685990338166, 'f1-score': 0.4919722847527769, 'support': 2805}
+2022-01-13 10:52:33,765 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.585617554417105, 'recall': 0.435650623885918, 'f1-score': 0.4995422532364045, 'support': 2805}
+2022-01-13 10:52:33,769 [MainThread  ] [INFO ]  New best model in epoch 6: 	 Macro f1 score: 0.4919722847527769
+2022-01-13 10:52:33,810 [MainThread  ] [INFO ]  --------------------------EPOCH 7--------------------------
+2022-01-13 10:53:10,235 [MainThread  ] [INFO ]  Train loss: 66.01027767137549
+2022-01-13 10:53:11,781 [MainThread  ] [INFO ]  B 	 {'precision': 0.5292056074766355, 'recall': 0.41944444444444445, 'f1-score': 0.46797520661157027, 'support': 1080}
+2022-01-13 10:53:11,782 [MainThread  ] [INFO ]  I 	 {'precision': 0.5923875432525951, 'recall': 0.49623188405797103, 'f1-score': 0.54006309148265, 'support': 1725}
+2022-01-13 10:53:11,782 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5688830943068232, 'recall': 0.4666666666666667, 'f1-score': 0.5127301214257737, 'support': 2805}
+2022-01-13 10:53:11,782 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5607965753646154, 'recall': 0.4578381642512077, 'f1-score': 0.5040191490471101, 'support': 2805}
+2022-01-13 10:53:11,782 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.568060808622279, 'recall': 0.4666666666666667, 'f1-score': 0.5123073283237316, 'support': 2805}
+2022-01-13 10:53:11,798 [MainThread  ] [INFO ]  New best model in epoch 7: 	 Macro f1 score: 0.5040191490471101
+2022-01-13 10:53:11,835 [MainThread  ] [INFO ]  --------------------------EPOCH 8--------------------------
+2022-01-13 10:53:48,777 [MainThread  ] [INFO ]  Train loss: 63.99359244861822
+2022-01-13 10:53:50,322 [MainThread  ] [INFO ]  B 	 {'precision': 0.5238095238095238, 'recall': 0.41759259259259257, 'f1-score': 0.4647089129314786, 'support': 1080}
+2022-01-13 10:53:50,323 [MainThread  ] [INFO ]  I 	 {'precision': 0.5994020926756353, 'recall': 0.46492753623188404, 'f1-score': 0.5236696049624552, 'support': 1725}
+2022-01-13 10:53:50,323 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5698044565711687, 'recall': 0.4467023172905526, 'f1-score': 0.5007993605115908, 'support': 2805}
+2022-01-13 10:53:50,324 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5616058082425796, 'recall': 0.4412600644122383, 'f1-score': 0.49418925894696686, 'support': 2805}
+2022-01-13 10:53:50,324 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5702969324705015, 'recall': 0.4467023172905526, 'f1-score': 0.5009681620414375, 'support': 2805}
+2022-01-13 10:53:50,330 [MainThread  ] [INFO ]  --------------------------EPOCH 9--------------------------
+2022-01-13 10:54:27,709 [MainThread  ] [INFO ]  Train loss: 63.13668459311299
+2022-01-13 10:54:29,286 [MainThread  ] [INFO ]  B 	 {'precision': 0.5530085959885387, 'recall': 0.3574074074074074, 'f1-score': 0.43419572553430824, 'support': 1080}
+2022-01-13 10:54:29,287 [MainThread  ] [INFO ]  I 	 {'precision': 0.6188811188811189, 'recall': 0.41043478260869565, 'f1-score': 0.4935517601951899, 'support': 1725}
+2022-01-13 10:54:29,287 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5939196525515744, 'recall': 0.39001782531194296, 'f1-score': 0.47084140305573485, 'support': 2805}
+2022-01-13 10:54:29,288 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5859448574348287, 'recall': 0.3839210950080515, 'f1-score': 0.4638737428647491, 'support': 2805}
+2022-01-13 10:54:29,288 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.593518436270072, 'recall': 0.39001782531194296, 'f1-score': 0.4706980997910002, 'support': 2805}
+2022-01-13 10:54:29,298 [MainThread  ] [INFO ]  --------------------------EPOCH 10--------------------------
+2022-01-13 10:55:05,992 [MainThread  ] [INFO ]  Train loss: 61.85683309620824
+2022-01-13 10:55:07,566 [MainThread  ] [INFO ]  B 	 {'precision': 0.5515394912985274, 'recall': 0.3814814814814815, 'f1-score': 0.4510125889436234, 'support': 1080}
+2022-01-13 10:55:07,567 [MainThread  ] [INFO ]  I 	 {'precision': 0.6152597402597403, 'recall': 0.4394202898550725, 'f1-score': 0.5126817720662834, 'support': 1725}
+2022-01-13 10:55:07,567 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5912076806467913, 'recall': 0.41711229946524064, 'f1-score': 0.4891304347826087, 'support': 2805}
+2022-01-13 10:55:07,567 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5833996157791339, 'recall': 0.410450885668277, 'f1-score': 0.4818471805049534, 'support': 2805}
+2022-01-13 10:55:07,568 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5907257406597011, 'recall': 0.41711229946524064, 'f1-score': 0.48893748765541967, 'support': 2805}
+2022-01-13 10:55:07,580 [MainThread  ] [INFO ]  --------------------------EPOCH 11--------------------------
+2022-01-13 10:55:44,433 [MainThread  ] [INFO ]  Train loss: 60.54691840862406
+2022-01-13 10:55:45,997 [MainThread  ] [INFO ]  B 	 {'precision': 0.5560344827586207, 'recall': 0.35833333333333334, 'f1-score': 0.43581081081081086, 'support': 1080}
+2022-01-13 10:55:45,998 [MainThread  ] [INFO ]  I 	 {'precision': 0.6204819277108434, 'recall': 0.41797101449275365, 'f1-score': 0.49948042951160376, 'support': 1725}
+2022-01-13 10:55:45,998 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.596340150699677, 'recall': 0.3950089126559715, 'f1-score': 0.4752305382800772, 'support': 2805}
+2022-01-13 10:55:45,999 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.588258205234732, 'recall': 0.38815217391304346, 'f1-score': 0.4676456201612073, 'support': 2805}
+2022-01-13 10:55:45,999 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5956679382105224, 'recall': 0.3950089126559715, 'f1-score': 0.4749659239155765, 'support': 2805}
+2022-01-13 10:55:46,007 [MainThread  ] [INFO ]  --------------------------EPOCH 12--------------------------
+2022-01-13 10:56:23,490 [MainThread  ] [INFO ]  Train loss: 59.98612563911526
+2022-01-13 10:56:25,093 [MainThread  ] [INFO ]  B 	 {'precision': 0.5684210526315789, 'recall': 0.35, 'f1-score': 0.4332378223495702, 'support': 1080}
+2022-01-13 10:56:25,094 [MainThread  ] [INFO ]  I 	 {'precision': 0.6135770234986945, 'recall': 0.40869565217391307, 'f1-score': 0.4906054279749478, 'support': 1725}
+2022-01-13 10:56:25,094 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5970231532524807, 'recall': 0.386096256684492, 'f1-score': 0.468932669408963, 'support': 2805}
+2022-01-13 10:56:25,095 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5909990380651367, 'recall': 0.3793478260869565, 'f1-score': 0.461921625162259, 'support': 2805}
+2022-01-13 10:56:25,095 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5961907673359548, 'recall': 0.386096256684492, 'f1-score': 0.4685173659159789, 'support': 2805}
+2022-01-13 10:56:25,102 [MainThread  ] [INFO ]  --------------------------EPOCH 13--------------------------
+2022-01-13 10:57:02,528 [MainThread  ] [INFO ]  Train loss: 59.441856121194775
+2022-01-13 10:57:04,150 [MainThread  ] [INFO ]  B 	 {'precision': 0.561877667140825, 'recall': 0.36574074074074076, 'f1-score': 0.443073471676949, 'support': 1080}
+2022-01-13 10:57:04,150 [MainThread  ] [INFO ]  I 	 {'precision': 0.6204506065857885, 'recall': 0.41507246376811596, 'f1-score': 0.49739492879472047, 'support': 1725}
+2022-01-13 10:57:04,151 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5982767905223478, 'recall': 0.396078431372549, 'f1-score': 0.4766194766194766, 'support': 2805}
+2022-01-13 10:57:04,151 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5911641368633067, 'recall': 0.39040660225442836, 'f1-score': 0.47023420023583473, 'support': 2805}
+2022-01-13 10:57:04,151 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5978984587781021, 'recall': 0.396078431372549, 'f1-score': 0.47647971535900097, 'support': 2805}
+2022-01-13 10:57:04,155 [MainThread  ] [INFO ]  --------------------------EPOCH 14--------------------------
+2022-01-13 10:57:41,112 [MainThread  ] [INFO ]  Train loss: 58.78959484758048
+2022-01-13 10:57:42,716 [MainThread  ] [INFO ]  B 	 {'precision': 0.5564738292011019, 'recall': 0.37407407407407406, 'f1-score': 0.4473975636766334, 'support': 1080}
+2022-01-13 10:57:42,717 [MainThread  ] [INFO ]  I 	 {'precision': 0.6181364392678869, 'recall': 0.43072463768115943, 'f1-score': 0.5076870515886573, 'support': 1725}
+2022-01-13 10:57:42,717 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5949170124481328, 'recall': 0.4089126559714795, 'f1-score': 0.4846820198605536, 'support': 2805}
+2022-01-13 10:57:42,718 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5873051342344944, 'recall': 0.40239935587761677, 'f1-score': 0.4775423076326454, 'support': 2805}
+2022-01-13 10:57:42,718 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5943946856592851, 'recall': 0.4089126559714795, 'f1-score': 0.4844739867241348, 'support': 2805}
+2022-01-13 10:57:42,729 [MainThread  ] [INFO ]  --------------------------EPOCH 15--------------------------
+2022-01-13 10:58:19,683 [MainThread  ] [INFO ]  Train loss: 58.47898667434166
+2022-01-13 10:58:21,335 [MainThread  ] [INFO ]  B 	 {'precision': 0.5572207084468664, 'recall': 0.3787037037037037, 'f1-score': 0.4509371554575524, 'support': 1080}
+2022-01-13 10:58:21,335 [MainThread  ] [INFO ]  I 	 {'precision': 0.6146261298274446, 'recall': 0.4336231884057971, 'f1-score': 0.5084976206662135, 'support': 1725}
+2022-01-13 10:58:21,336 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.593029215786776, 'recall': 0.4124777183600713, 'f1-score': 0.4865433137089991, 'support': 2805}
+2022-01-13 10:58:21,336 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5859234191371555, 'recall': 0.4061634460547504, 'f1-score': 0.47971738806188297, 'support': 2805}
+2022-01-13 10:58:21,336 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.592523507691607, 'recall': 0.4124777183600713, 'f1-score': 0.4863353025110071, 'support': 2805}
+2022-01-13 10:58:21,349 [MainThread  ] [INFO ]  --------------------------EPOCH 16--------------------------
+2022-01-13 10:58:58,295 [MainThread  ] [INFO ]  Train loss: 58.21245202250864
+2022-01-13 10:58:59,938 [MainThread  ] [INFO ]  B 	 {'precision': 0.5595567867036011, 'recall': 0.37407407407407406, 'f1-score': 0.4483906770255272, 'support': 1080}
+2022-01-13 10:58:59,939 [MainThread  ] [INFO ]  I 	 {'precision': 0.6188898094449047, 'recall': 0.4330434782608696, 'f1-score': 0.5095497953615279, 'support': 1725}
+2022-01-13 10:58:59,939 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5966822187662001, 'recall': 0.4103386809269162, 'f1-score': 0.48626953950147866, 'support': 2805}
+2022-01-13 10:58:59,939 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5892232980742529, 'recall': 0.4035587761674718, 'f1-score': 0.4789702361935275, 'support': 2805}
+2022-01-13 10:58:59,940 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5960450092450446, 'recall': 0.4103386809269162, 'f1-score': 0.48600189953162387, 'support': 2805}
+2022-01-13 10:58:59,944 [MainThread  ] [INFO ]  --------------------------EPOCH 17--------------------------
+2022-01-13 10:59:36,939 [MainThread  ] [INFO ]  Train loss: 57.928826737677916
+2022-01-13 10:59:38,621 [MainThread  ] [INFO ]  B 	 {'precision': 0.5584594222833562, 'recall': 0.37592592592592594, 'f1-score': 0.4493635860542336, 'support': 1080}
+2022-01-13 10:59:38,622 [MainThread  ] [INFO ]  I 	 {'precision': 0.6166666666666667, 'recall': 0.4289855072463768, 'f1-score': 0.505982905982906, 'support': 1725}
+2022-01-13 10:59:38,622 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5947067981318112, 'recall': 0.40855614973262033, 'f1-score': 0.4843617920540998, 'support': 2805}
+2022-01-13 10:59:38,622 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5875630444750115, 'recall': 0.40245571658615137, 'f1-score': 0.47767324601856975, 'support': 2805}
+2022-01-13 10:59:38,623 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5942553212356595, 'recall': 0.40855614973262033, 'f1-score': 0.48418295392480754, 'support': 2805}
+2022-01-13 10:59:38,628 [MainThread  ] [INFO ]  --------------------------EPOCH 18--------------------------
+2022-01-13 11:00:15,447 [MainThread  ] [INFO ]  Train loss: 57.892753381838745
+2022-01-13 11:00:17,139 [MainThread  ] [INFO ]  B 	 {'precision': 0.5551075268817204, 'recall': 0.3824074074074074, 'f1-score': 0.4528508771929825, 'support': 1080}
+2022-01-13 11:00:17,140 [MainThread  ] [INFO ]  I 	 {'precision': 0.6101829753381066, 'recall': 0.4446376811594203, 'f1-score': 0.5144198524480215, 'support': 1725}
+2022-01-13 11:00:17,140 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5897051474262869, 'recall': 0.4206773618538324, 'f1-score': 0.4910528506034124, 'support': 2805}
+2022-01-13 11:00:17,140 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5826452511099135, 'recall': 0.41352254428341384, 'f1-score': 0.48363536482050196, 'support': 2805}
+2022-01-13 11:00:17,141 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5889774550768242, 'recall': 0.4206773618538324, 'f1-score': 0.4907141507455466, 'support': 2805}
+2022-01-13 11:00:17,150 [MainThread  ] [INFO ]  --------------------------EPOCH 19--------------------------
+2022-01-13 11:00:54,441 [MainThread  ] [INFO ]  Train loss: 57.895501630059606
+2022-01-13 11:00:56,223 [MainThread  ] [INFO ]  B 	 {'precision': 0.55420054200542, 'recall': 0.3787037037037037, 'f1-score': 0.4499449944994499, 'support': 1080}
+2022-01-13 11:00:56,224 [MainThread  ] [INFO ]  I 	 {'precision': 0.6084142394822006, 'recall': 0.43594202898550727, 'f1-score': 0.5079365079365079, 'support': 1725}
+2022-01-13 11:00:56,224 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5881458966565349, 'recall': 0.413903743315508, 'f1-score': 0.4858757062146893, 'support': 2805}
+2022-01-13 11:00:56,225 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5813073907438103, 'recall': 0.40732286634460546, 'f1-score': 0.4789407512179789, 'support': 2805}
+2022-01-13 11:00:56,225 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5875405163895364, 'recall': 0.413903743315508, 'f1-score': 0.48560822468801496, 'support': 2805}
+2022-01-13 11:15:49,071 [MainThread  ] [INFO ]  --------------------------EPOCH 0--------------------------
+2022-01-13 11:16:26,579 [MainThread  ] [INFO ]  Train loss: 140.44943965166465
+2022-01-13 11:16:28,257 [MainThread  ] [INFO ]  B 	 {'precision': 0.45454545454545453, 'recall': 0.11574074074074074, 'f1-score': 0.18450184501845018, 'support': 1080}
+2022-01-13 11:16:28,257 [MainThread  ] [INFO ]  I 	 {'precision': 0.5988372093023255, 'recall': 0.2985507246376812, 'f1-score': 0.3984526112185687, 'support': 1725}
+2022-01-13 11:16:28,258 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5638766519823789, 'recall': 0.2281639928698752, 'f1-score': 0.32487309644670054, 'support': 2805}
+2022-01-13 11:16:28,258 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5266913319238901, 'recall': 0.20714573268921097, 'f1-score': 0.2914772281185094, 'support': 2805}
+2022-01-13 11:16:28,258 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5432810256526212, 'recall': 0.2281639928698752, 'f1-score': 0.3160758456228011, 'support': 2805}
+2022-01-13 11:16:28,262 [MainThread  ] [INFO ]  New best model in epoch 0: 	 Macro f1 score: 0.2914772281185094
+2022-01-13 11:16:28,670 [MainThread  ] [INFO ]  --------------------------EPOCH 1--------------------------
+2022-01-13 11:17:05,641 [MainThread  ] [INFO ]  Train loss: 94.21362988702182
+2022-01-13 11:17:07,355 [MainThread  ] [INFO ]  B 	 {'precision': 0.4913232104121475, 'recall': 0.41944444444444445, 'f1-score': 0.45254745254745254, 'support': 1080}
+2022-01-13 11:17:07,355 [MainThread  ] [INFO ]  I 	 {'precision': 0.5835674157303371, 'recall': 0.4817391304347826, 'f1-score': 0.5277865989202922, 'support': 1725}
+2022-01-13 11:17:07,355 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5473145780051151, 'recall': 0.4577540106951872, 'f1-score': 0.49854397204426315, 'support': 2805}
+2022-01-13 11:17:07,356 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5374453130712423, 'recall': 0.45059178743961353, 'f1-score': 0.4901670257338724, 'support': 2805}
+2022-01-13 11:17:07,356 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.548050930260232, 'recall': 0.4577540106951872, 'f1-score': 0.4988175158248673, 'support': 2805}
+2022-01-13 11:17:07,369 [MainThread  ] [INFO ]  New best model in epoch 1: 	 Macro f1 score: 0.4901670257338724
+2022-01-13 11:17:07,406 [MainThread  ] [INFO ]  --------------------------EPOCH 2--------------------------
+2022-01-13 11:17:44,737 [MainThread  ] [INFO ]  Train loss: 80.17076523002537
+2022-01-13 11:17:46,496 [MainThread  ] [INFO ]  B 	 {'precision': 0.5069444444444444, 'recall': 0.47314814814814815, 'f1-score': 0.48946360153256707, 'support': 1080}
+2022-01-13 11:17:46,497 [MainThread  ] [INFO ]  I 	 {'precision': 0.5572565829761176, 'recall': 0.527536231884058, 'f1-score': 0.5419892793329363, 'support': 1725}
+2022-01-13 11:17:46,497 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5380537675123059, 'recall': 0.5065953654188948, 'f1-score': 0.5218508997429305, 'support': 2805}
+2022-01-13 11:17:46,497 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.532100513710281, 'recall': 0.500342190016103, 'f1-score': 0.5157264404327517, 'support': 2805}
+2022-01-13 11:17:46,497 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5378850643970776, 'recall': 0.5065953654188948, 'f1-score': 0.5217654889499064, 'support': 2805}
+2022-01-13 11:17:46,502 [MainThread  ] [INFO ]  New best model in epoch 2: 	 Macro f1 score: 0.5157264404327517
+2022-01-13 11:17:46,545 [MainThread  ] [INFO ]  --------------------------EPOCH 3--------------------------
+2022-01-13 11:18:23,768 [MainThread  ] [INFO ]  Train loss: 72.45338904720613
+2022-01-13 11:18:25,488 [MainThread  ] [INFO ]  B 	 {'precision': 0.5222457627118644, 'recall': 0.4564814814814815, 'f1-score': 0.4871541501976284, 'support': 1080}
+2022-01-13 11:18:25,489 [MainThread  ] [INFO ]  I 	 {'precision': 0.5746606334841629, 'recall': 0.5153623188405797, 'f1-score': 0.543398533007335, 'support': 1725}
+2022-01-13 11:18:25,489 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5547972701726215, 'recall': 0.4926916221033868, 'f1-score': 0.52190332326284, 'support': 2805}
+2022-01-13 11:18:25,489 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5484531980980136, 'recall': 0.4859219001610306, 'f1-score': 0.5152763416024817, 'support': 2805}
+2022-01-13 11:18:25,489 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5544795067696949, 'recall': 0.4926916221033868, 'f1-score': 0.5217429417650951, 'support': 2805}
+2022-01-13 11:18:25,516 [MainThread  ] [INFO ]  --------------------------EPOCH 4--------------------------
+2022-01-13 11:19:03,151 [MainThread  ] [INFO ]  Train loss: 67.69329193816787
+2022-01-13 11:19:04,839 [MainThread  ] [INFO ]  B 	 {'precision': 0.5143464399574921, 'recall': 0.44814814814814813, 'f1-score': 0.4789708065314201, 'support': 1080}
+2022-01-13 11:19:04,840 [MainThread  ] [INFO ]  I 	 {'precision': 0.5790147152911068, 'recall': 0.5246376811594203, 'f1-score': 0.5504866180048662, 'support': 1725}
+2022-01-13 11:19:04,840 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5547124600638977, 'recall': 0.49518716577540106, 'f1-score': 0.5232623846298738, 'support': 2805}
+2022-01-13 11:19:04,840 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5466805776242994, 'recall': 0.4863929146537842, 'f1-score': 0.5147287122681432, 'support': 2805}
+2022-01-13 11:19:04,841 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5541157001893942, 'recall': 0.49518716577540106, 'f1-score': 0.5229511184001169, 'support': 2805}
+2022-01-13 11:19:04,845 [MainThread  ] [INFO ]  --------------------------EPOCH 5--------------------------
+2022-01-13 11:19:41,977 [MainThread  ] [INFO ]  Train loss: 64.61873403088799
+2022-01-13 11:19:43,716 [MainThread  ] [INFO ]  B 	 {'precision': 0.5339805825242718, 'recall': 0.4074074074074074, 'f1-score': 0.4621848739495798, 'support': 1080}
+2022-01-13 11:19:43,717 [MainThread  ] [INFO ]  I 	 {'precision': 0.5707850707850708, 'recall': 0.5142028985507247, 'f1-score': 0.5410186032326928, 'support': 1725}
+2022-01-13 11:19:43,717 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5580319596299411, 'recall': 0.4730837789661319, 'f1-score': 0.5120586532896007, 'support': 2805}
+2022-01-13 11:19:43,717 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5523828266546713, 'recall': 0.460805152979066, 'f1-score': 0.5016017385911363, 'support': 2805}
+2022-01-13 11:19:43,717 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5566143587274369, 'recall': 0.4730837789661319, 'f1-score': 0.5106655096049701, 'support': 2805}
+2022-01-13 11:19:43,722 [MainThread  ] [INFO ]  --------------------------EPOCH 6--------------------------
+2022-01-13 11:20:21,028 [MainThread  ] [INFO ]  Train loss: 61.772874371758824
+2022-01-13 11:20:22,789 [MainThread  ] [INFO ]  B 	 {'precision': 0.5235223160434258, 'recall': 0.40185185185185185, 'f1-score': 0.45468831849135677, 'support': 1080}
+2022-01-13 11:20:22,790 [MainThread  ] [INFO ]  I 	 {'precision': 0.5960698689956332, 'recall': 0.4747826086956522, 'f1-score': 0.5285575992255567, 'support': 1725}
+2022-01-13 11:20:22,790 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5687698592827962, 'recall': 0.4467023172905526, 'f1-score': 0.5003993610223643, 'support': 2805}
+2022-01-13 11:20:22,790 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5597960925195296, 'recall': 0.438317230273752, 'f1-score': 0.49162295885845675, 'support': 2805}
+2022-01-13 11:20:22,790 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5681371213348901, 'recall': 0.4467023172905526, 'f1-score': 0.5001159510284315, 'support': 2805}
+2022-01-13 11:20:22,795 [MainThread  ] [INFO ]  --------------------------EPOCH 7--------------------------
+2022-01-13 11:20:59,683 [MainThread  ] [INFO ]  Train loss: 59.93401989991637
+2022-01-13 11:21:01,435 [MainThread  ] [INFO ]  B 	 {'precision': 0.5485122897800776, 'recall': 0.3925925925925926, 'f1-score': 0.45763626551538045, 'support': 1080}
+2022-01-13 11:21:01,436 [MainThread  ] [INFO ]  I 	 {'precision': 0.6059190031152648, 'recall': 0.4510144927536232, 'f1-score': 0.517115320704553, 'support': 1725}
+2022-01-13 11:21:01,436 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5843461351482742, 'recall': 0.4285204991087344, 'f1-score': 0.4944467297408474, 'support': 2805}
+2022-01-13 11:21:01,437 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5772156464476712, 'recall': 0.42180354267310793, 'f1-score': 0.4873757931099667, 'support': 2805}
+2022-01-13 11:21:01,437 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5838158835423585, 'recall': 0.4285204991087344, 'f1-score': 0.4942142941076524, 'support': 2805}
+2022-01-13 11:21:01,442 [MainThread  ] [INFO ]  --------------------------EPOCH 8--------------------------
+2022-01-13 11:21:38,350 [MainThread  ] [INFO ]  Train loss: 58.35101561710752
+2022-01-13 11:21:40,153 [MainThread  ] [INFO ]  B 	 {'precision': 0.542997542997543, 'recall': 0.40925925925925927, 'f1-score': 0.46673706441393875, 'support': 1080}
+2022-01-13 11:21:40,153 [MainThread  ] [INFO ]  I 	 {'precision': 0.5789830508474576, 'recall': 0.4950724637681159, 'f1-score': 0.5337500000000001, 'support': 1725}
+2022-01-13 11:21:40,154 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5661861074705111, 'recall': 0.46203208556149733, 'f1-score': 0.508833922261484, 'support': 2805}
+2022-01-13 11:21:40,154 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5609902969225002, 'recall': 0.4521658615136876, 'f1-score': 0.5002435322069694, 'support': 2805}
+2022-01-13 11:21:40,154 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5651276681458862, 'recall': 0.46203208556149733, 'f1-score': 0.5079482280096449, 'support': 2805}
+2022-01-13 11:21:40,161 [MainThread  ] [INFO ]  --------------------------EPOCH 9--------------------------
+2022-01-13 11:22:17,105 [MainThread  ] [INFO ]  Train loss: 56.75234858194987
+2022-01-13 11:22:18,822 [MainThread  ] [INFO ]  B 	 {'precision': 0.5389447236180904, 'recall': 0.3972222222222222, 'f1-score': 0.4573560767590618, 'support': 1080}
+2022-01-13 11:22:18,823 [MainThread  ] [INFO ]  I 	 {'precision': 0.6021505376344086, 'recall': 0.4544927536231884, 'f1-score': 0.5180046250412951, 'support': 1725}
+2022-01-13 11:22:18,823 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5781696854146806, 'recall': 0.4324420677361854, 'f1-score': 0.49479910259025084, 'support': 2805}
+2022-01-13 11:22:18,824 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5705476306262496, 'recall': 0.4258574879227053, 'f1-score': 0.48768035090017847, 'support': 2805}
+2022-01-13 11:22:18,824 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.577814609243099, 'recall': 0.4324420677361854, 'f1-score': 0.4946533123336972, 'support': 2805}
+2022-01-13 11:22:18,831 [MainThread  ] [INFO ]  --------------------------EPOCH 10--------------------------
+2022-01-13 11:27:50,146 [MainThread  ] [INFO ]  --------------------------EPOCH 0--------------------------
+2022-01-13 11:28:28,540 [MainThread  ] [INFO ]  Train loss: 129.69685697007452
+2022-01-13 11:28:30,237 [MainThread  ] [INFO ]  B 	 {'precision': 0.475, 'recall': 0.07037037037037037, 'f1-score': 0.12258064516129033, 'support': 1080}
+2022-01-13 11:28:30,238 [MainThread  ] [INFO ]  I 	 {'precision': 0.5808080808080808, 'recall': 0.3333333333333333, 'f1-score': 0.42357274401473294, 'support': 1725}
+2022-01-13 11:28:30,238 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5660869565217391, 'recall': 0.2320855614973262, 'f1-score': 0.3292035398230088, 'support': 2805}
+2022-01-13 11:28:30,239 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5279040404040404, 'recall': 0.20185185185185184, 'f1-score': 0.27307669458801165, 'support': 2805}
+2022-01-13 11:28:30,239 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5400691406039, 'recall': 0.2320855614973262, 'f1-score': 0.30768273803907586, 'support': 2805}
+2022-01-13 11:28:30,242 [MainThread  ] [INFO ]  New best model in epoch 0: 	 Macro f1 score: 0.27307669458801165
+2022-01-13 11:37:05,065 [MainThread  ] [INFO ]  --------------------------EPOCH 0--------------------------
+2022-01-13 11:37:26,559 [MainThread  ] [INFO ]  Train loss: 129.66082921521416
+2022-01-13 11:37:27,439 [MainThread  ] [INFO ]  B 	 {'precision': 0.4725274725274725, 'recall': 0.07962962962962963, 'f1-score': 0.13629160063391443, 'support': 1080}
+2022-01-13 11:37:27,439 [MainThread  ] [INFO ]  I 	 {'precision': 0.57405614714424, 'recall': 0.343768115942029, 'f1-score': 0.43002175489485134, 'support': 1725}
+2022-01-13 11:37:27,439 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5588477366255145, 'recall': 0.24206773618538324, 'f1-score': 0.33781094527363187, 'support': 2805}
+2022-01-13 11:37:27,440 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5232918098358563, 'recall': 0.21169887278582933, 'f1-score': 0.2831566777643829, 'support': 2805}
+2022-01-13 11:37:27,440 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5349648927463402, 'recall': 0.24206773618538324, 'f1-score': 0.3169277917569505, 'support': 2805}
+2022-01-13 11:37:27,441 [MainThread  ] [INFO ]  New best model in epoch 0: 	 Macro f1 score: 0.2831566777643829
+2022-01-13 11:37:27,987 [MainThread  ] [INFO ]  --------------------------EPOCH 1--------------------------
+2022-01-13 11:37:48,728 [MainThread  ] [INFO ]  Train loss: 98.88213593932404
+2022-01-13 11:37:49,613 [MainThread  ] [INFO ]  B 	 {'precision': 0.46467391304347827, 'recall': 0.475, 'f1-score': 0.4697802197802198, 'support': 1080}
+2022-01-13 11:37:49,614 [MainThread  ] [INFO ]  I 	 {'precision': 0.5607420706163974, 'recall': 0.5431884057971015, 'f1-score': 0.5518256772673733, 'support': 1725}
+2022-01-13 11:37:49,614 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5225225225225225, 'recall': 0.5169340463458111, 'f1-score': 0.5197132616487455, 'support': 2805}
+2022-01-13 11:37:49,614 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5127079918299378, 'recall': 0.5090942028985508, 'f1-score': 0.5108029485237966, 'support': 2805}
+2022-01-13 11:37:49,614 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5237532612835087, 'recall': 0.5169340463458111, 'f1-score': 0.5202359824060094, 'support': 2805}
+2022-01-13 11:37:49,616 [MainThread  ] [INFO ]  New best model in epoch 1: 	 Macro f1 score: 0.5108029485237966
+2022-01-13 11:37:49,644 [MainThread  ] [INFO ]  --------------------------EPOCH 2--------------------------
+2022-01-13 11:38:10,600 [MainThread  ] [INFO ]  Train loss: 88.92004201604031
+2022-01-13 11:38:11,510 [MainThread  ] [INFO ]  B 	 {'precision': 0.4920212765957447, 'recall': 0.5138888888888888, 'f1-score': 0.5027173913043478, 'support': 1080}
+2022-01-13 11:38:11,510 [MainThread  ] [INFO ]  I 	 {'precision': 0.5730129390018485, 'recall': 0.5391304347826087, 'f1-score': 0.5555555555555555, 'support': 1725}
+2022-01-13 11:38:11,511 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5398037077426391, 'recall': 0.5294117647058824, 'f1-score': 0.5345572354211664, 'support': 2805}
+2022-01-13 11:38:11,511 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5325171077987966, 'recall': 0.5265096618357488, 'f1-score': 0.5291364734299516, 'support': 2805}
+2022-01-13 11:38:11,511 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5418289834230278, 'recall': 0.5294117647058824, 'f1-score': 0.5352114495337001, 'support': 2805}
+2022-01-13 11:38:11,517 [MainThread  ] [INFO ]  New best model in epoch 2: 	 Macro f1 score: 0.5291364734299516
+2022-01-13 11:38:11,541 [MainThread  ] [INFO ]  --------------------------EPOCH 3--------------------------
+2022-01-13 11:38:32,725 [MainThread  ] [INFO ]  Train loss: 83.22120710351001
+2022-01-13 11:38:33,648 [MainThread  ] [INFO ]  B 	 {'precision': 0.49952516619183285, 'recall': 0.48703703703703705, 'f1-score': 0.493202062822316, 'support': 1080}
+2022-01-13 11:38:33,648 [MainThread  ] [INFO ]  I 	 {'precision': 0.5809464508094645, 'recall': 0.5408695652173913, 'f1-score': 0.5601921344941458, 'support': 1725}
+2022-01-13 11:38:33,648 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5487025197442648, 'recall': 0.5201426024955437, 'f1-score': 0.5340409956076134, 'support': 2805}
+2022-01-13 11:38:33,648 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5402358085006487, 'recall': 0.5139533011272142, 'f1-score': 0.5266970986582309, 'support': 2805}
+2022-01-13 11:38:33,649 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5495970791919806, 'recall': 0.5201426024955437, 'f1-score': 0.5343991657221044, 'support': 2805}
+2022-01-13 11:38:33,664 [MainThread  ] [INFO ]  --------------------------EPOCH 4--------------------------
+2022-01-13 11:38:55,266 [MainThread  ] [INFO ]  Train loss: 79.45067464894262
+2022-01-13 11:38:56,186 [MainThread  ] [INFO ]  B 	 {'precision': 0.49405940594059405, 'recall': 0.462037037037037, 'f1-score': 0.477511961722488, 'support': 1080}
+2022-01-13 11:38:56,186 [MainThread  ] [INFO ]  I 	 {'precision': 0.5735754539762054, 'recall': 0.5310144927536232, 'f1-score': 0.5514750150511739, 'support': 1725}
+2022-01-13 11:38:56,186 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5427694668200997, 'recall': 0.5044563279857398, 'f1-score': 0.5229120473022912, 'support': 2805}
+2022-01-13 11:38:56,186 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5338174299583998, 'recall': 0.4965257648953301, 'f1-score': 0.514493488386831, 'support': 2805}
+2022-01-13 11:38:56,187 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5429596493849539, 'recall': 0.5044563279857398, 'f1-score': 0.5229972618978831, 'support': 2805}
+2022-01-13 11:38:56,200 [MainThread  ] [INFO ]  --------------------------EPOCH 5--------------------------
+2022-01-13 11:39:17,525 [MainThread  ] [INFO ]  Train loss: 75.79963666543193
+2022-01-13 11:39:18,476 [MainThread  ] [INFO ]  B 	 {'precision': 0.5134228187919463, 'recall': 0.425, 'f1-score': 0.4650455927051671, 'support': 1080}
+2022-01-13 11:39:18,477 [MainThread  ] [INFO ]  I 	 {'precision': 0.5869853917662683, 'recall': 0.5124637681159421, 'f1-score': 0.5471990095945527, 'support': 1725}
+2022-01-13 11:39:18,477 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5595833333333333, 'recall': 0.47878787878787876, 'f1-score': 0.5160422670509125, 'support': 2805}
+2022-01-13 11:39:18,477 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5502041052791073, 'recall': 0.46873188405797106, 'f1-score': 0.5061223011498599, 'support': 2805}
+2022-01-13 11:39:18,477 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5586618342574384, 'recall': 0.47878787878787876, 'f1-score': 0.5155677474767144, 'support': 2805}
+2022-01-13 11:39:18,496 [MainThread  ] [INFO ]  --------------------------EPOCH 6--------------------------
+2022-01-13 11:39:39,784 [MainThread  ] [INFO ]  Train loss: 71.87763937588396
+2022-01-13 11:39:40,742 [MainThread  ] [INFO ]  B 	 {'precision': 0.5127635960044395, 'recall': 0.42777777777777776, 'f1-score': 0.4664310954063604, 'support': 1080}
+2022-01-13 11:39:40,743 [MainThread  ] [INFO ]  I 	 {'precision': 0.5911602209944752, 'recall': 0.49623188405797103, 'f1-score': 0.5395524739993697, 'support': 1725}
+2022-01-13 11:39:40,743 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5610898254576415, 'recall': 0.46987522281639926, 'f1-score': 0.5114474194800155, 'support': 2805}
+2022-01-13 11:39:40,743 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5519619084994574, 'recall': 0.46200483091787437, 'f1-score': 0.5029917847028651, 'support': 2805}
+2022-01-13 11:39:40,743 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5609754242068679, 'recall': 0.46987522281639926, 'f1-score': 0.5113987881239864, 'support': 2805}
+2022-01-13 11:39:40,761 [MainThread  ] [INFO ]  --------------------------EPOCH 7--------------------------
+2022-01-13 11:40:02,943 [MainThread  ] [INFO ]  Train loss: 69.0518543199561
+2022-01-13 11:40:03,951 [MainThread  ] [INFO ]  B 	 {'precision': 0.5433911882510013, 'recall': 0.3768518518518518, 'f1-score': 0.4450519409513395, 'support': 1080}
+2022-01-13 11:40:03,952 [MainThread  ] [INFO ]  I 	 {'precision': 0.6165845648604269, 'recall': 0.4353623188405797, 'f1-score': 0.5103635745837579, 'support': 1725}
+2022-01-13 11:40:03,952 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5887137773258769, 'recall': 0.4128342245989305, 'f1-score': 0.4853310980720871, 'support': 2805}
+2022-01-13 11:40:03,952 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.579987876555714, 'recall': 0.40610708534621576, 'f1-score': 0.4777077577675487, 'support': 2805}
+2022-01-13 11:40:03,952 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5884031578236427, 'recall': 0.4128342245989305, 'f1-score': 0.4852168493349123, 'support': 2805}
+2022-01-13 11:40:03,957 [MainThread  ] [INFO ]  --------------------------EPOCH 8--------------------------
+2022-01-13 11:40:25,979 [MainThread  ] [INFO ]  Train loss: 66.3678786617586
+2022-01-13 11:40:26,953 [MainThread  ] [INFO ]  B 	 {'precision': 0.5292740046838408, 'recall': 0.4185185185185185, 'f1-score': 0.4674250258531541, 'support': 1080}
+2022-01-13 11:40:26,954 [MainThread  ] [INFO ]  I 	 {'precision': 0.5991620111731844, 'recall': 0.4973913043478261, 'f1-score': 0.5435540069686411, 'support': 1725}
+2022-01-13 11:40:26,954 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5730533683289589, 'recall': 0.46702317290552586, 'f1-score': 0.5146336672559418, 'support': 2805}
+2022-01-13 11:40:26,954 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5642180079285126, 'recall': 0.4579549114331723, 'f1-score': 0.5054895164108976, 'support': 2805}
+2022-01-13 11:40:26,954 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.572253260011512, 'recall': 0.46702317290552586, 'f1-score': 0.5142423137049241, 'support': 2805}
+2022-01-13 11:40:26,962 [MainThread  ] [INFO ]  --------------------------EPOCH 9--------------------------
+2022-01-13 11:40:48,698 [MainThread  ] [INFO ]  Train loss: 63.78377186566934
+2022-01-13 11:40:49,688 [MainThread  ] [INFO ]  B 	 {'precision': 0.5235955056179775, 'recall': 0.43148148148148147, 'f1-score': 0.4730964467005076, 'support': 1080}
+2022-01-13 11:40:49,689 [MainThread  ] [INFO ]  I 	 {'precision': 0.6010439970171514, 'recall': 0.4672463768115942, 'f1-score': 0.5257664709719505, 'support': 1725}
+2022-01-13 11:40:49,689 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5701479157328552, 'recall': 0.453475935828877, 'f1-score': 0.505162827640985, 'support': 2805}
+2022-01-13 11:40:49,689 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5623197513175644, 'recall': 0.44936392914653783, 'f1-score': 0.4994314588362291, 'support': 2805}
+2022-01-13 11:40:49,689 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5712242570131915, 'recall': 0.453475935828877, 'f1-score': 0.5054871033380259, 'support': 2805}
+2022-01-13 11:40:49,695 [MainThread  ] [INFO ]  --------------------------EPOCH 10--------------------------
+2022-01-13 11:41:11,849 [MainThread  ] [INFO ]  Train loss: 61.80622464760967
+2022-01-13 11:41:12,849 [MainThread  ] [INFO ]  B 	 {'precision': 0.5195968645016797, 'recall': 0.42962962962962964, 'f1-score': 0.47034972123669544, 'support': 1080}
+2022-01-13 11:41:12,850 [MainThread  ] [INFO ]  I 	 {'precision': 0.5955777460770328, 'recall': 0.48405797101449277, 'f1-score': 0.5340582027502399, 'support': 1725}
+2022-01-13 11:41:12,850 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5660130718954248, 'recall': 0.46310160427807484, 'f1-score': 0.5094117647058823, 'support': 2805}
+2022-01-13 11:41:12,850 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5575873052893563, 'recall': 0.4568438003220612, 'f1-score': 0.5022039619934676, 'support': 2805}
+2022-01-13 11:41:12,850 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5663230750961482, 'recall': 0.46310160427807484, 'f1-score': 0.5095287339321907, 'support': 2805}
+2022-01-13 11:41:12,856 [MainThread  ] [INFO ]  --------------------------EPOCH 11--------------------------
+2022-01-13 11:41:35,313 [MainThread  ] [INFO ]  Train loss: 60.36545904751482
+2022-01-13 11:41:36,334 [MainThread  ] [INFO ]  B 	 {'precision': 0.53125, 'recall': 0.39351851851851855, 'f1-score': 0.45212765957446804, 'support': 1080}
+2022-01-13 11:41:36,334 [MainThread  ] [INFO ]  I 	 {'precision': 0.6148760330578512, 'recall': 0.43130434782608695, 'f1-score': 0.5069846678023849, 'support': 1725}
+2022-01-13 11:41:36,335 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.581592039800995, 'recall': 0.41675579322638145, 'f1-score': 0.4855659397715472, 'support': 2805}
+2022-01-13 11:41:36,335 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5730630165289257, 'recall': 0.4124114331723028, 'f1-score': 0.47955616368842646, 'support': 2805}
+2022-01-13 11:41:36,335 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5826777743403898, 'recall': 0.41675579322638145, 'f1-score': 0.48586325286971105, 'support': 2805}
+2022-01-13 11:41:36,343 [MainThread  ] [INFO ]  --------------------------EPOCH 12--------------------------
+2022-01-13 11:41:58,326 [MainThread  ] [INFO ]  Train loss: 58.71755599975586
+2022-01-13 11:41:59,356 [MainThread  ] [INFO ]  B 	 {'precision': 0.5352449223416965, 'recall': 0.4148148148148148, 'f1-score': 0.46739697443922795, 'support': 1080}
+2022-01-13 11:41:59,357 [MainThread  ] [INFO ]  I 	 {'precision': 0.582995951417004, 'recall': 0.5008695652173913, 'f1-score': 0.538821328344247, 'support': 1725}
+2022-01-13 11:41:59,357 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5657611039241052, 'recall': 0.4677361853832442, 'f1-score': 0.5120999219359874, 'support': 2805}
+2022-01-13 11:41:59,357 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5591204368793503, 'recall': 0.45784219001610305, 'f1-score': 0.5031091513917375, 'support': 2805}
+2022-01-13 11:41:59,357 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5646105284575272, 'recall': 0.4677361853832442, 'f1-score': 0.5113210423487317, 'support': 2805}
+2022-01-13 11:41:59,370 [MainThread  ] [INFO ]  --------------------------EPOCH 13--------------------------
+2022-01-13 11:42:21,774 [MainThread  ] [INFO ]  Train loss: 57.294909904743065
+2022-01-13 11:42:22,795 [MainThread  ] [INFO ]  B 	 {'precision': 0.5444743935309974, 'recall': 0.37407407407407406, 'f1-score': 0.44346871569703616, 'support': 1080}
+2022-01-13 11:42:22,796 [MainThread  ] [INFO ]  I 	 {'precision': 0.6206008583690987, 'recall': 0.4191304347826087, 'f1-score': 0.5003460207612456, 'support': 1725}
+2022-01-13 11:42:22,796 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5909805977975878, 'recall': 0.4017825311942959, 'f1-score': 0.4783531409168082, 'support': 2805}
+2022-01-13 11:42:22,796 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5825376259500481, 'recall': 0.3966022544283414, 'f1-score': 0.47190736822914087, 'support': 2805}
+2022-01-13 11:42:22,796 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5912901339394554, 'recall': 0.4017825311942959, 'f1-score': 0.47844673752796707, 'support': 2805}
+2022-01-13 11:42:22,806 [MainThread  ] [INFO ]  --------------------------EPOCH 14--------------------------
+2022-01-13 11:42:45,248 [MainThread  ] [INFO ]  Train loss: 56.14328796562107
+2022-01-13 11:42:46,292 [MainThread  ] [INFO ]  B 	 {'precision': 0.552437223042836, 'recall': 0.34629629629629627, 'f1-score': 0.42572566875355716, 'support': 1080}
+2022-01-13 11:42:46,293 [MainThread  ] [INFO ]  I 	 {'precision': 0.6356435643564357, 'recall': 0.37217391304347824, 'f1-score': 0.4694698354661791, 'support': 1725}
+2022-01-13 11:42:46,293 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.6022525192649674, 'recall': 0.3622103386809269, 'f1-score': 0.45235975066785394, 'support': 2805}
+2022-01-13 11:42:46,293 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5940403936996359, 'recall': 0.3592351046698873, 'f1-score': 0.44759775210986813, 'support': 2805}
+2022-01-13 11:42:46,293 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.6036068981822156, 'recall': 0.3622103386809269, 'f1-score': 0.4526271616516937, 'support': 2805}
+2022-01-13 11:42:46,297 [MainThread  ] [INFO ]  --------------------------EPOCH 15--------------------------
+2022-01-13 11:43:08,831 [MainThread  ] [INFO ]  Train loss: 54.86667277895171
+2022-01-13 11:43:09,890 [MainThread  ] [INFO ]  B 	 {'precision': 0.5353658536585366, 'recall': 0.4064814814814815, 'f1-score': 0.4621052631578948, 'support': 1080}
+2022-01-13 11:43:09,890 [MainThread  ] [INFO ]  I 	 {'precision': 0.6071428571428571, 'recall': 0.46318840579710147, 'f1-score': 0.5254850378165077, 'support': 1725}
+2022-01-13 11:43:09,890 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5795880149812734, 'recall': 0.4413547237076649, 'f1-score': 0.5011131349929164, 'support': 2805}
+2022-01-13 11:43:09,890 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5712543554006968, 'recall': 0.4348349436392915, 'f1-score': 0.49379515048720124, 'support': 2805}
+2022-01-13 11:43:09,890 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5795067916301775, 'recall': 0.4413547237076649, 'f1-score': 0.5010821299265605, 'support': 2805}
+2022-01-13 11:43:09,895 [MainThread  ] [INFO ]  --------------------------EPOCH 16--------------------------
+2022-01-13 11:43:32,809 [MainThread  ] [INFO ]  Train loss: 54.14288404618186
+2022-01-13 11:43:33,896 [MainThread  ] [INFO ]  B 	 {'precision': 0.5270935960591133, 'recall': 0.3962962962962963, 'f1-score': 0.452431289640592, 'support': 1080}
+2022-01-13 11:43:33,896 [MainThread  ] [INFO ]  I 	 {'precision': 0.5540132770066385, 'recall': 0.5321739130434783, 'f1-score': 0.5428740390301597, 'support': 1725}
+2022-01-13 11:43:33,896 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5451599837991089, 'recall': 0.47985739750445633, 'f1-score': 0.5104285172544558, 'support': 2805}
+2022-01-13 11:43:33,896 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5405534365328759, 'recall': 0.46423510466988727, 'f1-score': 0.49765266433537586, 'support': 2805}
+2022-01-13 11:43:33,896 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5436484800642759, 'recall': 0.47985739750445633, 'f1-score': 0.5080511622598448, 'support': 2805}
+2022-01-13 11:43:33,911 [MainThread  ] [INFO ]  --------------------------EPOCH 17--------------------------
+2022-01-13 11:43:56,730 [MainThread  ] [INFO ]  Train loss: 53.07505158172257
+2022-01-13 11:43:57,818 [MainThread  ] [INFO ]  B 	 {'precision': 0.5327754532775453, 'recall': 0.3537037037037037, 'f1-score': 0.4251530328324986, 'support': 1080}
+2022-01-13 11:43:57,819 [MainThread  ] [INFO ]  I 	 {'precision': 0.6148023549201009, 'recall': 0.423768115942029, 'f1-score': 0.5017158544955388, 'support': 1725}
+2022-01-13 11:43:57,819 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5839454354669464, 'recall': 0.3967914438502674, 'f1-score': 0.4725111441307578, 'support': 2805}
+2022-01-13 11:43:57,819 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5737889040988231, 'recall': 0.3887359098228663, 'f1-score': 0.4634344436640187, 'support': 2805}
+2022-01-13 11:43:57,819 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5832198045550527, 'recall': 0.3967914438502674, 'f1-score': 0.47223712102099924, 'support': 2805}
+2022-01-13 11:43:57,824 [MainThread  ] [INFO ]  --------------------------EPOCH 18--------------------------
+2022-01-13 11:44:20,216 [MainThread  ] [INFO ]  Train loss: 52.337914258584206
+2022-01-13 11:44:21,271 [MainThread  ] [INFO ]  B 	 {'precision': 0.5147540983606558, 'recall': 0.4361111111111111, 'f1-score': 0.4721804511278196, 'support': 1080}
+2022-01-13 11:44:21,272 [MainThread  ] [INFO ]  I 	 {'precision': 0.5398907103825137, 'recall': 0.5727536231884058, 'f1-score': 0.5558368495077356, 'support': 1725}
+2022-01-13 11:44:21,272 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.531511839708561, 'recall': 0.5201426024955437, 'f1-score': 0.5257657657657657, 'support': 2805}
+2022-01-13 11:44:21,272 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5273224043715847, 'recall': 0.5044323671497585, 'f1-score': 0.5140086503177776, 'support': 2805}
+2022-01-13 11:44:21,272 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5302124426521727, 'recall': 0.5201426024955437, 'f1-score': 0.5236268993293722, 'support': 2805}
+2022-01-13 11:44:21,277 [MainThread  ] [INFO ]  --------------------------EPOCH 19--------------------------
+2022-01-13 11:44:44,203 [MainThread  ] [INFO ]  Train loss: 51.52057836247587
+2022-01-13 11:44:45,312 [MainThread  ] [INFO ]  B 	 {'precision': 0.522883295194508, 'recall': 0.42314814814814816, 'f1-score': 0.4677584442169908, 'support': 1080}
+2022-01-13 11:44:45,313 [MainThread  ] [INFO ]  I 	 {'precision': 0.5212089077412513, 'recall': 0.5698550724637681, 'f1-score': 0.5444475214621988, 'support': 1725}
+2022-01-13 11:44:45,313 [MainThread  ] [INFO ]  micro avg 	 {'precision': 0.5217391304347826, 'recall': 0.5133689839572193, 'f1-score': 0.5175202156334233, 'support': 2805}
+2022-01-13 11:44:45,313 [MainThread  ] [INFO ]  macro avg 	 {'precision': 0.5220461014678797, 'recall': 0.49650161030595813, 'f1-score': 0.5061029828395948, 'support': 2805}
+2022-01-13 11:44:45,313 [MainThread  ] [INFO ]  weighted avg 	 {'precision': 0.5218535916804731, 'recall': 0.5133689839572193, 'f1-score': 0.5149201762127069, 'support': 2805}
