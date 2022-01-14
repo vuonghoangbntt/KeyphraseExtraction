@@ -1,0 +1,400 @@
+21-10-30 03:55:45, INFO: 
+***************** INSPEC_BERT_BILSTM_CRF **************
+21-10-30 03:55:45, INFO: batch_size: 4
+21-10-30 03:55:45, INFO: data_name: Inspec
+21-10-30 03:55:45, INFO: dropout: 0.2
+21-10-30 03:55:45, INFO: file_name: Inspec_Bert_BiLSTM_CRF
+21-10-30 03:55:45, INFO: hidden_size: 128
+21-10-30 03:55:45, INFO: lr: 0.0001
+21-10-30 03:55:45, INFO: num_epoch: 20
+21-10-30 03:55:45, INFO: num_epoch_save: 2
+21-10-30 03:55:45, INFO: num_layers: 1
+21-10-30 03:55:45, INFO: test_size: 0.2
+21-10-30 03:55:45, INFO: --------------------------------
+21-10-30 03:55:45, INFO: BERT_BiLSTM_CRF(
+  (lstm): LSTM(768, 64, batch_first=True, bidirectional=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+  (bert): RobertaModel(
+    (embeddings): RobertaEmbeddings(
+      (word_embeddings): Embedding(50265, 768, padding_idx=1)
+      (position_embeddings): Embedding(514, 768, padding_idx=1)
+      (token_type_embeddings): Embedding(1, 768)
+      (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): RobertaEncoder(
+      (layer): ModuleList(
+        (0): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (1): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (2): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (3): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (4): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (5): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (6): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (7): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (8): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (9): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (10): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (11): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): RobertaPooler(
+      (dense): Linear(in_features=768, out_features=768, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (hidden2tag): Linear(in_features=128, out_features=3, bias=True)
+  (crf): CRF(num_tags=3)
+)
+21-10-30 03:55:45, INFO: --------------------------------
+21-10-30 04:01:17, INFO: ---------------------------------------Epoch 1---------------------------------------
+21-10-30 04:01:17, INFO: Train: loss 21.077958403374616, precision_score 0.4067213760502755, recall_score 0.3413532851063205, f1_score 0.3220498150686152
+21-10-30 04:01:17, INFO: Test: loss 16.622942810058593, precision_score 0.5970231128138485, recall_score 0.5412246318316211, f1_score 0.5535452975413273
+21-10-30 04:06:49, INFO: ---------------------------------------Epoch 2---------------------------------------
+21-10-30 04:06:49, INFO: Train: loss 12.702927567905054, precision_score 0.6909733500610823, recall_score 0.4629329778372247, f1_score 0.5059972956661222
+21-10-30 04:06:49, INFO: Test: loss 11.754876642227172, precision_score 0.6886817238959337, recall_score 0.5632655085484198, f1_score 0.6060206050807454
+21-10-30 04:12:22, INFO: ---------------------------------------Epoch 3---------------------------------------
+21-10-30 04:12:22, INFO: Train: loss 11.05567547372708, precision_score 0.6908419343928732, recall_score 0.6434613769661692, f1_score 0.6618854032729078
+21-10-30 04:12:22, INFO: Test: loss 10.469848508834838, precision_score 0.7071940158646882, recall_score 0.6371430709424959, f1_score 0.6667786375305412
+21-10-30 04:17:55, INFO: ---------------------------------------Epoch 4---------------------------------------
+21-10-30 04:17:55, INFO: Train: loss 10.801146852641477, precision_score 0.689574923675404, recall_score 0.706548133255934, f1_score 0.6946750866225587
+21-10-30 04:17:55, INFO: Test: loss 9.489144706726075, precision_score 0.735367572350078, recall_score 0.6964416700107584, f1_score 0.7130659386241666
+21-10-30 04:23:25, INFO: ---------------------------------------Epoch 5---------------------------------------
+21-10-30 04:23:25, INFO: Train: loss 10.005948586571485, precision_score 0.7208030574825252, recall_score 0.6738298250730482, f1_score 0.6937989853601265
+21-10-30 04:23:25, INFO: Test: loss 10.130953245162964, precision_score 0.7358343899638115, recall_score 0.6846730922344492, f1_score 0.7072634679684698
+21-10-30 04:28:57, INFO: ---------------------------------------Epoch 6---------------------------------------
+21-10-30 04:28:57, INFO: Train: loss 10.44528305500671, precision_score 0.737822139555087, recall_score 0.5327417960514332, f1_score 0.5919083235999811
+21-10-30 04:28:57, INFO: Test: loss 8.69368067741394, precision_score 0.7591604277405892, recall_score 0.7494824002796006, f1_score 0.7532078621125842
+21-10-30 04:34:29, INFO: ---------------------------------------Epoch 7---------------------------------------
+21-10-30 04:34:29, INFO: Train: loss 9.70629476365589, precision_score 0.7283760191326679, recall_score 0.6574899774083973, f1_score 0.6872337263844148
+21-10-30 04:34:29, INFO: Test: loss 8.994976210594178, precision_score 0.7852647774344703, recall_score 0.7306294332623251, f1_score 0.7552620756556103
+21-10-30 04:40:01, INFO: ---------------------------------------Epoch 8---------------------------------------
+21-10-30 04:40:01, INFO: Train: loss 9.666395870964031, precision_score 0.7277624888780038, recall_score 0.6328154217402153, f1_score 0.6702716186818652
+21-10-30 04:40:01, INFO: Test: loss 8.244032793045044, precision_score 0.7722925952606935, recall_score 0.8102834761950245, f1_score 0.7896992406016512
+21-10-30 04:45:32, INFO: ---------------------------------------Epoch 9---------------------------------------
+21-10-30 04:45:32, INFO: Train: loss 9.624741529163561, precision_score 0.7249182158344603, recall_score 0.6723483538412007, f1_score 0.6960612661373906
+21-10-30 04:45:32, INFO: Test: loss 6.6209443044662475, precision_score 0.8244254814563451, recall_score 0.8297021534382519, f1_score 0.8267110182761989
+21-10-30 04:51:03, INFO: ---------------------------------------Epoch 10---------------------------------------
+21-10-30 04:51:03, INFO: Train: loss 9.729009039121165, precision_score 0.7249197572110048, recall_score 0.6884625505748322, f1_score 0.7047412744211994
+21-10-30 04:51:03, INFO: Test: loss 6.671765336990356, precision_score 0.8169862383050702, recall_score 0.8500138096147211, f1_score 0.8325222492214873
+21-10-30 04:56:35, INFO: ---------------------------------------Epoch 11---------------------------------------
+21-10-30 04:56:35, INFO: Train: loss 10.513042773818013, precision_score 0.7202031991597075, recall_score 0.6493189753537504, f1_score 0.6800730395867857
+21-10-30 04:56:35, INFO: Test: loss 7.156836643218994, precision_score 0.8334879010313306, recall_score 0.8285659776279344, f1_score 0.8307189092273976
+21-10-30 05:02:06, INFO: ---------------------------------------Epoch 12---------------------------------------
+21-10-30 05:02:06, INFO: Train: loss 12.327667954571563, precision_score 0.6707618297904672, recall_score 0.7319776410693541, f1_score 0.6967258113129171
+21-10-30 05:02:06, INFO: Test: loss 6.453841795921326, precision_score 0.8315900243827891, recall_score 0.8333970968640961, f1_score 0.8321279394025799
+21-10-30 05:07:36, INFO: ---------------------------------------Epoch 13---------------------------------------
+21-10-30 05:07:36, INFO: Train: loss 11.849415530537005, precision_score 0.7224201410372914, recall_score 0.641550771526998, f1_score 0.675861582663979
+21-10-30 05:07:36, INFO: Test: loss 5.559894971847534, precision_score 0.8609362712821298, recall_score 0.8511166430112871, f1_score 0.8555246245610199
+21-10-30 05:13:06, INFO: ---------------------------------------Epoch 14---------------------------------------
+21-10-30 05:13:06, INFO: Train: loss 11.034044473691095, precision_score 0.6956289616870489, recall_score 0.7513269901310168, f1_score 0.7206655121243704
+21-10-30 05:13:06, INFO: Test: loss 4.960894865989685, precision_score 0.8925707873597367, recall_score 0.8674591737390743, f1_score 0.879354323510614
+21-10-30 05:18:40, INFO: ---------------------------------------Epoch 15---------------------------------------
+21-10-30 05:18:40, INFO: Train: loss 11.504173000354815, precision_score 0.6934177023985274, recall_score 0.7551174483747273, f1_score 0.7208143550175764
+21-10-30 05:18:40, INFO: Test: loss 4.037068419456482, precision_score 0.9146700742288805, recall_score 0.8956637168944145, f1_score 0.9045742383168145
+21-10-30 05:24:11, INFO: ---------------------------------------Epoch 16---------------------------------------
+21-10-30 05:24:11, INFO: Train: loss 10.414692082799467, precision_score 0.7205477989445237, recall_score 0.7137905989654757, f1_score 0.7171256902686592
+21-10-30 05:24:11, INFO: Test: loss 5.41800790309906, precision_score 0.8742585619061503, recall_score 0.8804246589781412, f1_score 0.8771865823811278
+21-10-30 05:29:44, INFO: ---------------------------------------Epoch 17---------------------------------------
+21-10-30 05:29:44, INFO: Train: loss 13.371092404339247, precision_score 0.6706619031055494, recall_score 0.7578508335368072, f1_score 0.7067373103684126
+21-10-30 05:29:44, INFO: Test: loss 4.593664631843567, precision_score 0.9261058018892571, recall_score 0.8727409528069353, f1_score 0.8974749025934341
+21-10-30 05:35:17, INFO: ---------------------------------------Epoch 18---------------------------------------
+21-10-30 05:35:17, INFO: Train: loss 10.237406294447437, precision_score 0.7232655561136387, recall_score 0.7184173745458752, f1_score 0.720659685921499
+21-10-30 05:35:17, INFO: Test: loss 3.5088349962234497, precision_score 0.9130912254288006, recall_score 0.9243721081965487, f1_score 0.9184219981531632
+21-10-30 05:40:51, INFO: ---------------------------------------Epoch 19---------------------------------------
+21-10-30 05:40:51, INFO: Train: loss 10.988869315699526, precision_score 0.722320320640991, recall_score 0.7085750067315489, f1_score 0.7152144422288268
+21-10-30 05:40:51, INFO: Test: loss 3.538985223770142, precision_score 0.9081560673418058, recall_score 0.9302125088897242, f1_score 0.9187430576319665
+21-10-30 05:46:22, INFO: ---------------------------------------Epoch 20---------------------------------------
+21-10-30 05:46:22, INFO: Train: loss 10.77028809454208, precision_score 0.7197845004622215, recall_score 0.7111438060978389, f1_score 0.715314848823958
+21-10-30 05:46:22, INFO: Test: loss 3.0611228561401367, precision_score 0.9425942949389547, recall_score 0.92864702634072, f1_score 0.9353328548837144
+21-10-30 05:46:22, INFO: --------------------------------------------------------------------------------------
+21-10-30 05:46:22, INFO:                                        Result                                         
+21-10-30 05:46:22, INFO: --------------------------------------------------------------------------------------
+21-10-30 05:47:57, INFO: Train:
+21-10-30 05:47:58, INFO: 
+              precision    recall  f1-score   support
+
+           B       0.48      0.80      0.60     57636
+           I       0.55      0.90      0.68    113504
+           O       0.98      0.85      0.91    849504
+
+    accuracy                           0.85   1020644
+   macro avg       0.67      0.85      0.73   1020644
+weighted avg       0.90      0.85      0.86   1020644
+
+21-10-30 05:47:58, INFO: Test: 
+21-10-30 05:47:58, INFO: 
+              precision    recall  f1-score   support
+
+           B       0.64      0.94      0.76      3649
+           I       0.70      0.99      0.82      6899
+           O       1.00      0.91      0.95     52115
+
+    accuracy                           0.92     62663
+   macro avg       0.78      0.95      0.84     62663
+weighted avg       0.94      0.92      0.92     62663
+

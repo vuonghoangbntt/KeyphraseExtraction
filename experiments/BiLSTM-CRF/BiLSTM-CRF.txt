@@ -1,0 +1,21 @@
+21-08-19 10:52:45, INFO: 
+***************** BILSTM-CRF **************
+21-08-19 10:52:45, INFO: batch_size: 64
+21-08-19 10:52:45, INFO: data_name: Inspec
+21-08-19 10:52:45, INFO: file_name: BiLSTM-CRF
+21-08-19 10:52:45, INFO: hidden_size: 128
+21-08-19 10:52:45, INFO: num_epoch: 10
+21-08-19 10:52:45, INFO: test_size: 0.2
+21-08-19 10:52:45, INFO: use_pretrain: True
+21-08-19 10:52:45, INFO: --------------------------------
+21-08-19 10:52:45, INFO: BiLSTM_CRF(
+  (embedding): Embedding(400004, 100)
+  (lstm): LSTM(100, 64, batch_first=True, bidirectional=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+  (hidden2tag): Linear(in_features=128, out_features=3, bias=True)
+  (crf): CRF(num_tags=3)
+)
+21-08-19 10:52:45, INFO: --------------------------------
+21-08-19 10:53:11, INFO: ---------------------------------------Epoch 1---------------------------------------
+21-08-19 10:53:11, INFO: Train: precision_score 0.6436388019392297, recall_score 0.35199230041528096, f1_score 0.3458480483196682
+21-08-19 10:53:11, INFO: Test: precision_score 0.669852315748663, recall_score 0.4225304623427868, f1_score 0.4589216592785101
