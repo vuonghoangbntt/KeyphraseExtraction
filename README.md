@@ -1,5 +1,5 @@
 # KeyphraseExtraction
-
+- Tải model theo nguồn: https://github.com/LIAAD/KeywordExtractor-Datasets
 - Foder experiment lưu các file log quá trình training và hyperparameter setting cho từng model
 - Folder saved_model lưu các checkpoint cho từng model
 - Tiền xử lý dữ liệu
