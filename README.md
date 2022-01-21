@@ -4,7 +4,7 @@
 - Folder saved_model lưu các checkpoint cho từng model
 - Tiền xử lý dữ liệu
 ```
-python KeyPhraseExtraction/src/preprocessing.py [--data_name] [----get_embedding] [--bert_encoding] [--glove_encoding] [--doc_embedding]
+python KeyPhraseExtraction/src/preprocessing.py [--data_name] [--get_embedding] [--bert_encoding] [--glove_encoding] [--doc_embedding]
 ```
 
 - Huấn luyện mô hình:
